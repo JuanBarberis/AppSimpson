@@ -1,11 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import IndexNav from './src/nav/IndexNav'
 
 const App = () => {
   return (
-    <View>
-      <Text>App </Text>
-    </View>
+    <>
+      <IndexNav />
+    </>
   )
 }
 
